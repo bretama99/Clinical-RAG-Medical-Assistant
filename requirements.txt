@@ -1,0 +1,24 @@
+python-dotenv>=1.0.1
+PyYAML>=6.0.2
+requests>=2.32.3
+typer>=0.12.5
+tqdm>=4.66.5
+diskcache>=5.6.3
+
+numpy>=2.1.0
+scipy>=1.14.0
+pandas>=2.2.0
+
+rank-bm25>=0.2.2
+scikit-learn>=1.5.0
+
+sentence-transformers>=3.1.1
+
+pymupdf>=1.24.10
+pypdf>=5.1.0
+
+tavily-python>=0.5.0
+
+streamlit>=1.37.1
+
+faiss-cpu>=1.12.0 ; python_version < "3.13"

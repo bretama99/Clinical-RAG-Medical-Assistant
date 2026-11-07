@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+myenv/
+
+# Environment variables
+.env
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Data and generated indexes
+data/
+pdfs/
+documents/
+uploads/
+indexes/
+embeddings/
+vectorstore/
+*.pkl
+*.pickle
+*.faiss
+*.npy
+*.npz
+
+# Streamlit
+.streamlit/secrets.toml
