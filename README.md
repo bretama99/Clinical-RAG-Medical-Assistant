@@ -16,7 +16,7 @@ Efficient medical knowledge assistant with RAG and agentic workflow.
 pip install -r requirements.txt
 
 # Configure environment
-cp .env.template .env
+cp .env.example .env
 # Edit .env with your settings
 
 # Place PDFs in data/raw/
