@@ -7,7 +7,10 @@ from typing import List, Optional
 
 import yaml
 
+from dotenv import load_dotenv
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(PROJECT_ROOT / ".env", override=False)
 @dataclass
 class AppConfig:
     name: str = "Medical Knowledge & Healthcare Assistant (Pro)"
